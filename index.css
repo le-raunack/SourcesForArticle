@@ -1,59 +1,59 @@
-*{
-    font-family: 'Segoe UI';
-    padding: 0;
-    margin: 0;
+* {
+  font-family: "Segoe UI";
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background-color: rgb(75, 75, 75);
+body {
+  background-color: rgb(75, 75, 75);
 }
 
-header{
-    color: white;
-    padding: 5px;
-    text-align: center;
-    margin: 0px 0px 10px;
+header {
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin: 0px 0px 10px;
 }
 
-main{
-    width: 50%;
-    margin: 20px auto 0;
-    padding: 10px;
-    font-size: 20px;
-    background-color: white;
-    min-height: 85vh;
-    box-shadow: 1px 5px 8px 2px rgb(35, 35, 35);
-    border: 5px solid red;
+main {
+  width: 50%;
+  margin: 20px auto 0;
+  padding: 10px;
+  font-size: 20px;
+  background-color: white;
+  min-height: 85vh;
+  box-shadow: 1px 5px 8px 2px rgb(35, 35, 35);
+  border: 5px solid red;
 }
 
-main p{
-    font-size: 16px;
+main p {
+  font-size: 16px;
 }
 
-ul{
-    width: 90%;
-    margin: 0 auto 10px;
-    list-style: decimal;
+ul {
+  width: 90%;
+  margin: 0 auto 10px;
+  list-style: decimal;
 }
 
-ul li{
-    margin: 5px 0;
+ul li {
+  margin: 5px 0;
 }
 
-ul li a{
-    color: black;
+ul li a {
+  color: black;
 }
 
-ul li a:visited{
-    color: gray;
+ul li a:visited {
+  color: gray;
 }
 
-ul li a:hover{
-    color: red;
+ul li a:hover {
+  color: red;
 }
 
-@media (min-width:360px) and (max-width:600px){
-    main{
-        width: 80%;
-    }
+@media (min-width: 360px) and (max-width: 600px) {
+  main {
+    width: 80%;
+  }
 }
