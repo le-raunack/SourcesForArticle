@@ -1,0 +1,54 @@
+*{
+    font-family: 'Segoe UI';
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: gray;
+}
+
+header{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 0px 2px 5px 2px gray;
+    margin: 0px 0px 10px;
+}
+
+main{
+    width: 50%;
+    margin: 20px auto 0;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    min-height: 85vh;
+    box-shadow: 1px 5px 8px 2px rgb(50, 50, 50);
+    border: 5px solid red;
+}
+
+main p{
+    font-size: 16px;
+}
+
+ul{
+    width: 90%;
+    margin: 0 auto 10px;
+    list-style: decimal;
+}
+
+ul li{
+    margin: 5px 0;
+}
+
+ul li a{
+    color: black;
+}
+
+ul li a:visited{
+    color: gray;
+}
+
+ul li a:hover{
+    color: red;
+}
